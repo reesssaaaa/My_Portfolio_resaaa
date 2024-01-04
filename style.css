@@ -1,48 +1,106 @@
 /* Variabel */
-:root{
-    --Warna-utama:#b7b7a4;
-    --warna-gelap:#0f0f0f;
+:root {
+  --Warna-utama: #b7b7a4;
+  --warna-gelap: #0f0f0f;
+  --grey-color: #778899;
+
+  --h1-font-size: 40px;
+  --h2-font-size: 32px;
+  --small-font-size: 14px;
 }
 
 /* Reset Css */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-section{
-    padding: 70px 0;
-}
-
-.navbar-nav .nav-item .nav-link:hover{
-    color: var(--Warna-utama);
+section {
+  padding: 70px 0;
 }
 
-.header-section .header-title{
-    color: var(--Warna-utama);
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--Warna-utama);
 }
 
-.header-section .header-title-2
-{
-color: var(--warna-gelap);
+.header-section .header-title {
+  color: var(--Warna-utama);
 }
 
-.header-section .header-skill{
-    color: var(--warna-gelap);
-    text-decoration: none;
+.header-section .header-title-2 {
+  color: var(--warna-gelap);
 }
 
-.header-section .header-skill:hover{
-    color: var(--Warna-utama);
+.header-section .header-skill {
+  color: var(--warna-gelap);
+  text-decoration: none;
 }
 
-.header-section .header-skill i{
-    transition: .3s;
-}.header-section .header-skill:hover i{
-    transform: rotate(-180deg);
+.header-section .header-skill:hover {
+  color: var(--Warna-utama);
 }
 
-.header-section .header-img{
-    width: 65%;
+.header-section .header-skill i {
+  transition: 0.3s;
+}
+.header-section .header-skill:hover i {
+  transform: rotate(-180deg);
+}
+
+.header-section .header-img {
+  width: 65%;
+}
+
+section {
+  padding: 70px 0;
+}
+
+section .section-title {
+  font-size: var(--h2-font-size);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.btn-warna {
+  background-color: var(--Warna-utama);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text-warna {
+  color: var(--Warna-utama);
+}
+
+.portfolio-section {
+  background-color: var(--Warna-utama);
+}
+
+/* skills */
+
+.skills-section {
+  background-color: var(--Warna-utama);
+}
+
+.skills-section .progress-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 10px;
+  background-color: var(--warna-gelap);
+}
+
+.skills-section .progress-bar .progress {
+  background-color: white;
+}
+
+/* Skills */
+.skills-section{
+  background-color: var(--Warna-utama);
+}
+
+.skills-section .progress-bar{
+  width: 100%;
+  height: 10px;
+  background-color: var(--grey-color);
+  border-radius: 10px;
 }
