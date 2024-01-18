@@ -104,3 +104,19 @@ section .section-title {
   background-color: var(--grey-color);
   border-radius: 10px;
 }
+
+/* News */
+  .new-section .card .card img-top{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .new-section .card a{
+    font-size: 12px;
+  }
+
+
+
+
+  

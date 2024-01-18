@@ -259,7 +259,6 @@
 
     </section>
     <!-- Skills Start -->
-
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
         fill="#b7b7a4"
@@ -268,6 +267,89 @@
       ></path>
     </svg>
 
+    <!-- News Start -->
+    <section class="news-section" id="portfolio">
+      <div class="container">
+        <p class="fs-2">NEWS</p>
+        <h2 class="section-title">Last Week Update</h2>
+
+        <div class="swiper news-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <img
+                  src="https://picsum.photos/200/300"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Weather Prediction App</h5>
+                  <p class="card-text">Ini adalah aplikasi pertama saya</p>
+                  <a href="#" class="btn btn-warna">Lihat Demo</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card">
+                <img
+                  src="https://picsum.photos/200/300"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Weather Prediction App</h5>
+                  <p class="card-text">Ini adalah aplikasi pertama saya</p>
+                  <a href="#" class="btn btn-warna">Lihat Demo</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card">
+                <img
+                  src="https://picsum.photos/200/300"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Weather Prediction App</h5>
+                  <p class="card-text">Ini adalah aplikasi pertama saya</p>
+                  <a href="#" class="btn btn-warna">Lihat Demo</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card">
+                <img
+                  src="https://picsum.photos/200/300"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Weather Prediction App</h5>
+                  <p class="card-text">Ini adalah aplikasi pertama saya</p>
+                  <a href="#" class="btn btn-warna">Lihat Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="d-flex align-items-center justify-content-center gap-3 mt-3">
+      <button class="btn ptn-light align-items-center justify-content-center d-flex swiper-left">
+        <i class="bx bx-left-arrow-alt"></i>
+      </button>
+
+        <button class="btn ptn-light align-items-center justify-content-center d-flex swiper-right">
+          <i class="bx bx-right-arrow-alt"></i>
+        </button>
+        </div>  
+    </section>
+    
+    <!-- News End -->
+
     <!-- swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- bootstrap -->
@@ -275,6 +357,16 @@
 
     <script>
       var swiper = new Swiper(".portfolio-swiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        navigation: {
+          nextEl: ".swiper-right",
+          prevEl: ".swiper-left",
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".news-swiper", {
         slidesPerView: 3,
         spaceBetween: 30,
         navigation: {
