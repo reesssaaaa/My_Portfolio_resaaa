@@ -116,7 +116,35 @@ section .section-title {
     font-size: 12px;
   }
 
+.text-yellow{
+  color: var(--Warna-utama);
+}
+.bg-color{
+  background-color: var(--Warna-utama);
+}
+.portfolio-section .card .card-img-top{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .portfolio-section .card a {
+    margin: 4px;
+    font-size: 12px;
+  }
+  .portfolio-section .card {
+    font-size: 14px;
+}
+}
+@media screen and (max-width: 768px) {
+  .news-section .card p {
+    font-size: 14px;
+  }
 
+  .news-section .card a {
+    font-size: 12px;
+  }
+}
 
 
   
