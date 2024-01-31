@@ -48,8 +48,9 @@ section {
   transform: rotate(-180deg);
 }
 
+/* ukuran foto */
 .header-section .header-img {
-  width: 65%;
+  width: 75%;
 }
 
 section {
